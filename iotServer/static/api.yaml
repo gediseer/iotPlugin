@@ -1,0 +1,37 @@
+openapi: 3.0.1
+info:
+  title: Nationalize
+  description: A plugin that estimates the nationality of a person based on a last name
+  version: 0.1.1
+servers:
+  - url: 20.195.8.86:5000
+paths:
+  /:
+    get:
+      operationId: getNationality
+      description: Gets the probable nationality given the person's last name
+      parameters:
+        - name: name
+          in: query
+          description: The last name of the person
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK - Returns a list of properties
+          content:
+            application/json:
+              schema:
+                type: string
+  /ac/close:
+    get:
+      operationId: getCloseAC
+      description: Closes the user's air conditioner
+      responses:
+        '200':
+          description: OK - Returns a whether the air conditioner was closed or not
+          content:
+            application/json:
+              schema:
+                type: string            

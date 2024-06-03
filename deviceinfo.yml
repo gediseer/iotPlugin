@@ -1,0 +1,198 @@
+Username: xueyingmao@outlook.com
+Password: crystyl2xm
+== 小米智能摄像机2 云台版 (Device online ) ==
+        Model: chuangmi.camera.049a01
+        Token: 78373343514652486d6a386365377851
+        IP: 192.168.110.52 (mac: 94:F8:27:24:F7:0D)
+        DID: 1034425307
+        Locale: cn
+== Mi 360° Home Security Camera 2K (Device offline ) ==
+        Model: chuangmi.camera.029a02
+        Token: 4f4d59324e7271716e68354b50585769
+        IP: 192.168.110.158 (mac: 60:7E:A4:A6:68:A7)
+        DID: 520062781
+        Locale: cn
+== 餐桌灯 (Device offline ) ==
+        Model: yeelink.light.mbulb3
+        Token: 11ca9f66bf38ff3f625699bf7e8f89ff
+        IP: 112.87.252.15 (mac: CC:B5:D1:A3:83:C9)
+        DID: 1000203810
+        Locale: cn
+== 玄关主灯 (Device online ) ==
+        Model: yeelink.light.mbulb3
+        Token: 59dedeb549341e230ffd2c4a27bfba09
+        IP:  (mac: CC:B5:D1:A9:F5:C9)
+        DID: 1000209952
+        Locale: cn
+== 落地灯 (Device online ) ==
+        Model: yeelink.light.mbulb3
+        Token: cbad79d5d600a27b097353e9843e73ab
+        IP:  (mac: DC:ED:83:6C:5B:1A)
+        DID: 1003101787
+        Locale: cn
+== Yeelight downlight & spotlight (Device online ) ==
+        Model: yeelink.light.ml1
+        Token: af96fcf67cd62a7be48373670eaf01ce
+        IP: 153.34.137.95 (mac: 68:AB:BC:19:AE:B2)
+        DID: 1048884228
+        Locale: cn
+== Yeelight downlight & spotlight5 (Device online ) ==
+        Model: yeelink.light.ml1
+        Token: be9151b6c87ba168e40b70fbe50dbbd0
+        IP:  (mac: 68:AB:BC:0B:0F:87)
+        DID: 1048887102
+        Locale: cn
+== Yeelight downlight & spotlight2 (Device online ) ==
+        Model: yeelink.light.ml1
+        Token: 677094a8c912f5139c4d8955624b1c57
+        IP:  (mac: 68:AB:BC:1C:51:CC)
+        DID: 1048887344
+        Locale: cn
+== 镜前灯 (Device online ) ==
+        Model: yeelink.light.ml1
+        Token: dac5660025ddcdde1f11479b2da3c7b6
+        IP: 112.87.209.151 (mac: 68:AB:BC:4E:81:95)
+        DID: 1049072112
+        Locale: cn
+== Yeelight downlight & spotlight3 (Device online ) ==
+        Model: yeelink.light.ml1
+        Token: 760fe3c142bb1a68a8a224c4afe9613a
+        IP: 153.34.137.95 (mac: 68:AB:BC:18:39:E3)
+        DID: 1049072233
+        Locale: cn
+== 吸顶灯3 (Device online ) ==
+        Model: yeelink.light.ceil26
+        Token: a0118bcd964e86e99415335348590575
+        IP: 192.168.110.55 (mac: B4:60:ED:02:4D:F6)
+        DID: 434354849
+        Locale: cn
+== 主卧吸顶灯 (Device offline ) ==
+        Model: yeelink.light.ceil26
+        Token: 7e86a94561684130166c2d631849a797
+        IP: 10.0.0.215 (mac: B4:60:ED:02:50:D3)
+        DID: 434355582
+        Locale: cn
+== 吸顶灯 (Device online ) ==
+        Model: yeelink.light.ceil26
+        Token: 3f4825da976e6e205e28d460ebd1fe0c
+        IP: 192.168.110.90 (mac: B4:60:ED:03:D7:18)
+        DID: 434455491
+        Locale: cn
+== 灯带 (Device online ) ==
+        Model: yeelink.light.strip4
+        Token: 84945e7c42bce6d43de254f8cf8ff728
+        IP: 192.168.110.225 (mac: B4:60:ED:07:AF:BB)
+        DID: 434707558
+        Locale: cn
+== Yeelight Screen Light Bar (Device online ) ==
+        Model: yeelink.light.lamp15
+        Token: b8de4648b89bc41784bbc959a8aa9f4a
+        IP: 192.168.110.238 (mac: B4:60:ED:52:C3:BD)
+        DID: 454990761
+        Locale: cn
+== 吸顶灯2 (Device online ) ==
+        Model: yeelink.light.ceiling22
+        Token: 516b76a7fcb14dd928cf9938e92058db
+        IP: 192.168.110.30 (mac: 68:AB:BC:71:AC:A1)
+        DID: 553734031
+        Locale: cn
+== Xiaomi Smart Doorbell 3 (Device online ) ==
+        Model: madv.cateye.miowl3
+        Token: 92b7b92488a2f3cfd2cfeda06bc62e81
+        IP: 192.168.110.145 (mac: 7C:C2:94:AD:C3:28)
+        DID: 1034664598
+        Locale: cn
+== 厨房主灯 (Device online ) ==
+        Model: zimi.switch.dhkg01
+        Token: 3d726a16dca955622af32a67e1e675cd
+        IP: 153.34.238.242 (mac: 6C:D3:EE:C7:17:77)
+        DID: 1035335298
+        Locale: cn
+== xiaomiaibox (Device online ) ==
+        Model: onemore.wifispeaker.sm4
+        Token: 34785a543141464f626e33394a596363
+        IP: 192.168.110.60 (mac: CC:4B:73:ED:D6:2C)
+        DID: 275638051
+        Locale: cn
+== Mi Smart Ultra Electricity Saving AC (1.5HP/Inverter/New China Energy Label L1) (Device online ) ==
+        Model: xiaomi.aircondition.t13
+        Token: 0a471cb60c9c3dccac1de14885df2ee0
+        IP: 192.168.110.182 (mac: EC:4D:3E:A0:EC:DC)
+        DID: 477054694
+        Locale: cn
+== Mi Smart Air Conditioner Controller Pro (Device offline ) ==
+        Model: lumi.acpartner.mcn04
+        Token: 308d5d1b0a67b3f084804fdd2322bfb3
+        IP: 192.168.2.110 (mac: 7C:C2:94:EB:AA:ED)
+        DID: 533818605
+        Locale: cn
+== Mi Smart Standing Fan E (Device offline ) ==
+        Model: dmaker.fan.1e
+        Token: 9756cdad604daef3c17ba97f03a314d5
+        IP: 10.0.0.247 (mac: 68:AB:BC:36:6F:83)
+        DID: 547655683
+        Locale: cn
+== Mijia Smart Anti-bacterial Humidifier 2 (Device offline ) ==
+        Model: deerma.humidifier.jsq2g
+        Token: c80bdcb4c0ffd86c1940ad080ef0dc2a
+        IP: 192.168.2.182 (mac: 68:AB:BC:43:3C:00)
+        DID: 548494464
+        Locale: cn
+== Mi AI Speaker Pro (Device online ) ==
+        Model: xiaomi.wifispeaker.lx06
+        Token: 4830424753684d356a436a5644574168
+        IP: 192.168.110.44 (mac: A4:39:B3:2D:90:86)
+        DID: 566623356
+        Locale: cn
+        Sub devices:
+                空调
+                        DID: ir.1738580377700282368
+                        Model: miir.aircondition.ir02
+== Mijia Smart Plug 3 (Device offline ) ==
+        Model: cuco.plug.v3
+        Token: d5ea7ab97af965615b1d85107d7ad718
+        IP: 192.168.110.3 (mac: D4:F0:EA:33:35:7E)
+        DID: 699142387
+        Locale: cn
+== 书房无线开关 (Device online ) ==
+        Model: yeelink.remote.contrl
+        Token: 6d86516f6dbb44d488d82f33
+        IP:  (mac: CC:B5:D1:B3:D8:FE)
+        DID: blt.3.1b0egrpeclc00
+        Locale: cn
+== 双键无线开关 (Device online ) ==
+        Model: yeelink.remote.contrl
+        Token: 9539c4ea59543752017843ae
+        IP: 153.34.16.180 (mac: CC:B5:D1:B4:34:E7)
+        DID: blt.3.1b0ekbcp8ls00
+        Locale: cn
+== 客厅双键无线开关 (Device online ) ==
+        Model: yeelink.remote.contrl
+        Token: a48fc30f0a30aa26502a6d97
+        IP:  (mac: DC:ED:83:6C:51:7D)
+        DID: blt.3.1cld982io5c00
+        Locale: cn
+== 玄关双键无线开关 (Device online ) ==
+        Model: yeelink.remote.contrl
+        Token: ae85e538f86afaa885d47432
+        IP:  (mac: DC:ED:83:6D:84:01)
+        DID: blt.3.1cldf2bb8lo00
+        Locale: cn
+== 温湿度计 () ==
+        Model: miaomiaoce.sensor_ht.t2
+        Token: d1d3058ac6c040a4dd7cc8e5
+        IP:  (mac: A4:C1:38:55:8A:D8)
+        DID: blt.3.1crgvtff85k01
+        Locale: cn
+== 短廊筒灯组 (Device online ) ==
+        Model: mijia.light.group3
+        Token: 2BxJCIctYzOvVY5r
+        IP:  (mac: )
+        DID: group.1543539768846643200
+        Locale: cn
+== 灯组 (Device online ) ==
+        Model: mijia.light.group3
+        Token: MNhwt2r03M1Bfy57
+        IP:  (mac: )
+        DID: group.1738582803026944000
+        Locale: cn

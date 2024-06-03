@@ -1,0 +1,59 @@
+{
+    "AiPlugins": [
+        {
+            "schema_version": "v2",
+            "name_for_human": "Nationalize",
+            "description_for_human": "A plugin that helps users manage their smart home devices",
+            "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/GDJ-World-Flags-Globe.svg",
+            "contact_email": "<your email>",
+            "namespace": "Nationalize",
+            "functions": [
+                {
+                    "name": "getNationality",
+                    "states": {
+                        "reasoning": {
+                            "description": "\n# `{{ function.declaration }}`: returns the most probable nationality of a person given the surname.",
+                            "instructions": []
+                        },
+                        "responding": {
+                            "description": "\n# `{{ function.declaration }}`: returns the most probable nationality of a person given the surname.",
+                            "instructions": [
+                                "I will present the information returned by this tool in a table, formatted using Markdown syntax."
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "getCloseAC",
+                    "states": {
+                        "reasoning": {
+                            "description": "\n# `{{ function.declaration }}`: close the user's air conditioner.",
+                            "instructions": []
+                        },
+                        "responding": {
+                            "description": "\n# `{{ function.declaration }}`: returns the executation result.",
+                            "instructions": [
+                                "I will give a result value, success or failed."
+                            ]
+                        }
+                    }
+                }
+            ],
+            "runtimes": [
+                {
+                    "type": "OpenApi",
+                    "auth": {
+                        "type": "none"
+                    },
+                    "spec": {
+                        "url": "20.195.8.86:5000/file/api.yaml"
+                    },
+                    "run_for_functions": [
+                        "getNationality",
+                        "getCloseAC"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+Task was cancelled: "ext:aiplugin-openapi-loader-Nationalize" API at "http://40.90.162.167:5000/file/api.yaml". Not caused by a timeout (0ms / 5000ms). Cancellation requested. exception: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|5_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.Falcon.TuringBot.HttpClientWrapper.Send(HttpRequestMessage request, String destinationAlias, CancellationToken cancellationToken, Boolean isStreaming) in D:\a\_work\1\s\services\TuringBot\src\Service\HttpClientWrapper.cs:line 89
+   at BotClientLibrary.ServiceClients.ServiceClient.<>c__DisplayClass27_0.<<SendHttpRequest>b__1>d.MoveNext() in D:\a\_work\1\s\services\TuringBot\src\BotClientLibrary\ServiceClients\ServiceClient.cs:line 668
+--- End of stack trace from previous location ---
+   at BotClientLibrary.ServiceClients.BaseRetryPolicy`3.RunAsync(Func`2 sendTaskFunc, Func`2 readResponseStreamTaskFunc, TRequest request, RequestContext context, ITuringBotLogger logger, ITelemetryScope scope, ITelemetryScopeFactory scopeFactory, CancellationToken cancellationToken)
+   at BotClientLibrary.ServiceClients.BaseRetryPolicy`3.RunAsync(Func`2 sendTaskFunc, Func`2 readResponseStreamTaskFunc, TRequest request, RequestContext context, ITuringBotLogger logger, ITelemetryScope scope, ITelemetryScopeFactory scopeFactory, CancellationToken cancellationToken) in D:\a\_work\1\s\services\TuringBot\src\BotClientLibrary\ServiceClients\BaseRetryPolicy.cs:line 87
+   at BotClientLibrary.ServiceClients.ServiceClient.SendHttpRequest(String url, HttpRequestMessage request, ITelemetryScope scope, String serviceName, ServiceClientOptions options, CancellationToken cancellationToken) in D:\a\_work\1\s\services\TuringBot\src\BotClientLibrary\ServiceClients\ServiceClient.cs:line 652
